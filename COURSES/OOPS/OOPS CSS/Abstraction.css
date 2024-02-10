@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to bottom, rgb(56, 56, 56), rgb(41, 41, 41), black);
+}
+::-webkit-scrollbar{
+  display: none;
+}
+*{
+  font-family:'Times New Roman', Times, serif;
+}

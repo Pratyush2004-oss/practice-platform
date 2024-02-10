@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEBSITE NAME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="./OOPS CSS/Objects.css">
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIdeBar -->
+    <div class="container-fluid p-0 d-flex mt-1">
+        <div class="d-xl-flex flex-column flex-shrink-0 p-4 text-bg-dark d-none " style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi pe-none me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Sidebar</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="./Introduction_to_OOPS.html" class="nav-link text-white text-center" aria-current="page">
+                        Introduction
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./class.html" class="nav-link text-white text-center" aria-current="page">
+                        Classes in OOPS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Objects.html" class="nav-link active text-white text-center" aria-current="page">
+                        Objects in OOPS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Data-Encapsulation.html" class="nav-link text-white text-center" aria-current="page">
+                        Data Encapsulation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Data-Abstraction.html" class="nav-link text-white text-center" aria-current="page">
+                        Data Abstraction
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Inheritance.html" class="nav-link text-white text-center" aria-current="page">
+                        Inheritance
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Polymorphism.html" class="nav-link text-white text-center" aria-current="page">
+                        Polymorphism
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Advantages.html" class="nav-link text-white text-center" aria-current="page">
+                        Advantages
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Applications.html" class="nav-link text-white text-center" aria-current="page">
+                        Applications
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- content of the page -->
+        <div class="container-fluid content">
+
+            <!-- Objects in OOPS -->
+            <div class="container-fluid my-4">
+                <div class="container-lg text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold"><b>Objects in OOPS</b></h1>
+                </div>
+                <div class="container-lg text-white p-3 my-3 fs-5 text lh-lg">
+                    A class is only logical representation of data. Hence to work with the data represented by the class you must create a variable for the class which is called as an object. <br>
+                    <ul>
+                        <li class="my-2 mx-4">
+                            Object is a variable of type class. 
+                        </li>
+                        <li class="my-2 mx-4">
+                            Object is the basic unit of object-oriented programming.
+                        </li>
+                        <li class="my-2 mx-4">
+                            In a class to access data members first memory have to be allocated.
+                        </li>
+                        <li class="my-2 mx-4">
+                            No memory is allocated when a class is created.
+                        </li>
+                        <li class="my-2 mx-4">
+                            Memory is allocated only when an object is created, i.e., when an instance of a class is created. Object is physical copy and class is logical copy.
+                        </li>
+                    </ul>         
+                </div>
+            </div>
+
+
+            <!-- Declaration of Objects in OOPS -->
+            <div class="container-fluid my-4">
+                <div class="container-lg text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold">Declaration of <b>Objects</b></h1>
+                </div>
+                <div class="container-lg text-white p-3 my-3 fs-5 text lh-lg">
+                    <p class="my-2">
+                        The declaration of object is same as declaration of variables of basic data types. Defining objects of class data type is known as class instantiation. <br>
+                        Memory is allocated only when objects are created. <br>
+                        <span class="fs-3 fw-bold">
+                            <u>Syntax</u>
+                        </span> :<br>
+                        <p class="mx-3 fs-3 fw-bold">
+                            < class_name > < variable_name >; <br>
+                            Example : student Dean;
+                        </p>
+                    </p>
+                    
+                    <hr>
+                    <h2 class="fw-bold text-warning">Ways to Declare Objects in OOPS : </h2>
+                    <p>
+                        <span class="fs-4 fw-bold">
+                            Object as Variable : 
+                        </span>
+                        <img src="./OOPS IMAGES/object as variable.png" class= "w-100 my-3" alt="">
+                        <span class="fs-4 fw-bold">
+                            Object as Pointer : 
+                        </span>
+                        <img src="./OOPS IMAGES/object as pointer.png" class= "w-100 my-3" alt="">
+                        
+                    </p>
+                </div>
+                <div class="container-lg">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+</html>

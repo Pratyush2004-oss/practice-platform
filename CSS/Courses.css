@@ -1,0 +1,25 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #3b3b3b; */
+    background: linear-gradient(to bottom, rgb(56, 56, 56), rgb(41, 41, 41), black);
+    /* background-image: url(../Images/web.png); */
+}
+
+.color-transparent{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+
+
+/* .dark-mode{
+    border: 5px red solid;
+    color: white;
+} */
