@@ -54,8 +54,8 @@
         </div>
     </nav>
 
-    <!-- SIdeBar -->
     <div class="container-fluid p-0 d-flex mt-1">
+        <!-- SIdeBar -->
         <div class="d-xl-flex flex-column flex-shrink-0 p-4 text-bg-dark d-none " style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <svg class="bi pe-none me-2" width="40" height="32">
@@ -133,71 +133,61 @@
         <!-- content of the page -->
         <div class="container-fluid content">
 
-            <!-- Classes in OOPS -->
+            <!-- Inheritance -->
             <div class="container-fluid my-4">
-                <div class="container-lg text-warning p-3 my-3 border-bottom">
-                    <h1 class="fw-bold"><b>Classes in OOPS</b></h1>
+                <div class="container-fluid text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold"><b>Inheritance</b></h1>
                 </div>
-                <div class="container-lg text-white p-3 my-3 fs-3 text lh-lg">
-                    It is a user defined data type, which consists of both data and functions into a single unit. <br>
-                    In OOP data must be represented in the form of a class . A class contains variables for 
-                    storing data and functions to specify various operations that can be performed and hence 
-                    it is only logical representation of data and not physical representation.
-                    <br>
-                    <ul>
-                        <li class="my-2 mx-4">
-                            So class is collection of Data members and Member functions. 
-                        </li>
-                        <li class="my-2 mx-4">
-                            Class is a blue print of an object.
-                        </li>
-                        <li class="my-2 mx-4">
-                            Once a class has been defined we can create any number of objects.
-                        </li>
-                        <li class="my-2 mx-4">
-                            Each object is associated with the data of type class which they were created. 
-                        </li>
-                        <li class="my-2 mx-4">
-                            class provides the concept of Encapsulation.
-                        </li>
-                        <li class="my-2 mx-4">
-                            class provides the concept of Data hiding with private declarations.
-                        </li>
-                    </ul>         
+                <div class="container-fluid text-white p-3 my-3 fs-5 text lh-lg">
+                    Creating a new class from an existing class or base class is called Inheritance. The <b>base class</b> is also known as <b>parent class</b> or <b>super class</b>, The new class that is formed is called <b>derived class</b>. Derived class is also known as a <b>child class</b> or <b>sub class</b>. Inheritance helps in reducing the overall code size of the program, which is an important concept in object-oriented programming. <br>
+                    The concept of inheritance provides the idea of reusablity. Instead of rewritting the code you can create the class from the existing class and extending the functionality of existing class. This mean that we can add additional features to an existing class with out modifying it. This is possible by designing a new class that will have the combined features of both the classes.al representation of data and not physical representation.
+                    <br>       
                 </div>
             </div>
 
-
-            <!-- Declaration of Classes in OOPS -->
+            <!-- Types of Inheritance-->
             <div class="container-fluid my-4">
-                <div class="container-lg text-warning p-3 my-3 border-bottom">
-                    <h1 class="fw-bold">Declaration of <b>C++ Classes</b></h1>
+                <div class="container-fluid text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold">Types of <b>Inheritance</b></h1>
                 </div>
-                <div class="container-lg text-white p-3 my-3 fs-3 text lh-lg">
-                    <p class="my-2">
-                        A class is collection of Data members and member functions which id hidden from other 
-                        programs. <br>
-                        The key word <b>'class'</b>  is used to declare a class. Inside the class access specifiers are used 
-                        to declare variables and methods. <br>
-                        Creating a class : To create class use the keyword class that has the following syntax : <br>
-                    </p>
-                    <p class="m-4">
-                            <b>[ access specifier ] class < class name > { <br>
-                                <span class="m-4">
-                                    Access specifier : <br>
-                                    <span class="m-4">
-                                        variabledeclarations; <br>
-                                    </span>
-                                    <span class="m-4">
-                                        Access specifier : <br>
-                                    </span>
-                                    <span class="m-4">
-                                        method declarations & implementations <br>
-                                    </span>
-                                };
-                                </span>
-                            </b>     
-                    </p>
+                <div class="container-fluid text-white p-3 my-3 fs-5 text lh-lg">
+                    <ol>
+                        <li>
+                            <h3><b>Single Inheritance</b></h3>
+                            One derived class inherits from only one base class. The process in which a derived class inherits traits from only one base class, is called single inheritance. In single inheritance, there is only one base class and one derived class. The derived class inherits the behavior and attributes of the base class. The derived class can add its own properties, ie data members(variables) and functions. It can extend or use properties of the base class with out any modification to the base class.
+                            <div class="container mx-2">
+                                <img src="./OOPS IMAGES/Single-level-inheritance.jpg" alt="" class="w-75 border">
+                            </div>
+                        </li>
+                        <li>
+                            <h3><b>Multi-Level Inheritance</b></h3>
+                            In this type of inheritance a single derived class may inherit from two or more than two base classes. The process in which a derived class inherits traits from another derived class, is called multilevel inheritance.
+                            <div class="container mx-2">
+                                <img src="./OOPS IMAGES/Multi-level-inheritance.jpg" alt="" class="w-75 border">
+                            </div>
+                        </li>
+                        <li>
+                            <h3><b>Multiple Inheritance</b></h3>
+                            The process in which derived class inherits traits from several base classes, is called multiple inheritance. In multiple inheritance, there is only one derived class and several base classes. we declare the base classes and derived class as given.
+                            <div class="container mx-2">
+                                <img src="./OOPS IMAGES/Multiple-level-inheritance.jpg" alt="" class="w-75 border">
+                            </div>
+                        </li>
+                        <li>
+                            <h3><b>Hierarchial-Level Inheritance</b></h3>
+                            In this type of inheritance,more than one sub class is inherited from a single base class. i,e more than one derived class is created from a single base class.
+                            <div class="container mx-2">
+                                <img src="./OOPS IMAGES/Heirarchial-level-inheritance.jpg" alt="" class="w-75 border">
+                            </div>
+                        </li>
+                        <li>
+                            <h3><b>Hybrid Inheritance</b></h3>
+                            The combination of one or more type of inheritance happening together is known as hybrid inheritance.
+                            <div class="container mx-2">
+                                <img src="./OOPS IMAGES/Hybrid inheritance.jpg" alt="" class="w-75 border">
+                            </div>
+                        </li>
+                    </ol>
                     <hr>
                     <h2 class="fw-bold">Source Code : </h2>
                     
